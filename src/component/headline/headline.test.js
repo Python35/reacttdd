@@ -15,7 +15,7 @@ describe('Headline Component', () => {
     it('Should not thorw a warning', () => {
       const expecetdProps = {
         header: 'Pro',
-        desc: 'test',
+        desc: 'test'
       };
       const propsErr = checkProps(Headline, expecetdProps);
       expect(propsErr).toBeUndefined();
@@ -27,7 +27,7 @@ describe('Headline Component', () => {
     beforeEach(() => {
       const props = {
         header: 'Test Header',
-        desc: 'Test Desc',
+        desc: 'Test Desc'
       };
       component = setUp(props);
     });
