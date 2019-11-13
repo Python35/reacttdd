@@ -5,7 +5,7 @@ import Header from './index';
 import { findByTestAttr } from './../../../utils/index';
 
 const setUp = (props = {}) => {
-  const component = shallow(<Header {...props}/>);
+  const component = shallow(<Header {...props} />);
   return component;
 };
 
