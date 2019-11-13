@@ -34,7 +34,7 @@ class App extends Component {
       buttonText: 'Get Posts',
       emitEvent: this.fetch,
     };
-    return (<div className="App">
+    return (<div className="App" data-test="appComponent">
       <Header/>
 
       <section className="main">
